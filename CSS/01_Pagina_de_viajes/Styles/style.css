@@ -93,3 +93,105 @@ footer{
     text-align: center; /* Centra el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
+
+/* Aqui va el estilo del Formulario de contacto */
+
+#contacto{
+    padding:40px 0;
+}
+
+#contacto.container{
+    text-align: center;
+}
+
+#contacto h2{
+    margin-bottom: 20px;
+}
+
+#contacto form{
+    max-width: 500px; /* Establece el ancho maximo del elemento formulario */
+    margin: 0 auto; /* Centra horizontalmente dentro del contenedor */
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Establece una sombra alrededor del formulario */
+}
+#contacto label{
+    display: block; /* Etiquetas en bloques */
+    margin-bottom: 10px;
+    font-weight: bold; /* Establece fuente en negrita */
+}
+#contacto input, #contacto textarea{
+    resize: vertical; /* Permite redimencionar el ara del texto verticalmente */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y el borde del ancho*/
+} 
+
+#contacto textarea{
+    resize: vertical; 
+}
+
+/* Estilos para la selección de destino y fecha */
+#destinos {
+    padding: 40px 0;
+}
+
+#destinos .container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#destinos h2 {
+    margin-bottom: 20px;
+}
+
+#destinos form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#destinos label {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#destinos input,
+#destinos textarea {
+    flex: 0 0 calc(50% - 10px);
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#destinos textarea {
+    resize: vertical;
+}
+
+#destinos input[type="submit"] {
+    flex: 0 0 100%;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#destinos input[type="submit"]:hover {
+    background-color: #0056b3;
+}
