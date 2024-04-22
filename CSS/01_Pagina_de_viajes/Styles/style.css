@@ -15,7 +15,7 @@ padding: 0; /* Elimina todo el relleno de los elementos */
 }
 /* Estilo de encabezado */
 header{
-    background-color: #333; /* Establece el color de fondo */
+    background-color: #a3c2e9; /* Establece el color de fondo */
     color: #fff; /* Establece el color del texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
@@ -39,7 +39,7 @@ section {
 }
 
 #banner{
-    background-image: url("https://via.placeholder.com/1500x500"); /* Establece la imagen de fondo de del banner*/
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/054/629/large_2x/dark-cloudy-sky-banner-free-photo.jpg"); /* Establece la imagen de fondo de del banner*/
     background-size: cover; /* Ajusta la imagen al área del banner */
     color: #fff; /* Establece color del texto*/
     text-align: center; /* Sentra el texto del banner */
@@ -54,14 +54,14 @@ section {
 }
 
 .btn{
-    background-color: #007bff; /* Color fondo boton*/
+    background-color: #accef3; /* Color fondo boton*/
     color: #fff; /* Color texto del boton*/
     padding: 10px 20px; /* Relleno del boton */
     text-decoration: none; /* Quita decoración de enlace */
 }
 /* Estilo cuado pasa puntero sobre el boton */
 .btn:hover{
-    background-color: #0056b3; /* Establece color de fondo de fondo en hover boton */
+    background-color: #7eb1e7; /* Establece color de fondo de fondo en hover boton */
 }
 
 .destinos-container{
@@ -89,7 +89,7 @@ section {
 }
 
 footer{
-    background-color: #333; /* Establece color de fondo de footer */
+    background-color: #a3c2e9; /* Establece color de fondo de footer */
     text-align: center; /* Centra el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
@@ -114,7 +114,7 @@ footer{
     padding: 20px;
     background-color: gainsboro;
     border-radius: 8px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Establece una sombra alrededor del formulario */
+    box-shadow: 0 0 10px rgba(104, 204, 230, 0.5); /* Establece una sombra alrededor del formulario */
 }
 #contacto label{
     display: block; /* Etiquetas en bloques */
@@ -156,7 +156,7 @@ footer{
     justify-content: center;
     background-color: gainsboro;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(104, 204, 230, 0.5);
     padding: 20px;
 }
 
@@ -184,7 +184,7 @@ footer{
 #destinos input[type="submit"] {
     flex: 0 0 100%;
     width: 100%;
-    background-color: #007bff;
+    background-color: #a3c2e9;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -193,5 +193,5 @@ footer{
 }
 
 #destinos input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #7eb1e7; 
 }
