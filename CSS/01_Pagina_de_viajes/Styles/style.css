@@ -116,7 +116,7 @@ footer{
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(104, 204, 230, 0.5); /* Establece una sombra alrededor del formulario */
 }
-#contacto label{
+#contacto label{ 
     display: block; /* Etiquetas en bloques */
     margin-bottom: 10px;
     font-weight: bold; /* Establece fuente en negrita */
