@@ -1,0 +1,57 @@
+body {
+    margin: 150px;
+}
+
+#Crear {
+    color: #fff;
+    background-color: #2a79de;
+    padding: 15px 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #050615;
+    box-shadow: black 5px 5px;
+    
+}
+
+#Search {
+    color: #3e8d8d;
+    background-color: #fff;
+    padding: 15px 60px;
+    text-decoration: none;
+    width: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #3e8d8d;
+    border-radius: 30px;
+}
+
+#Cruz {
+    background-color: #0dd3ba;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;  
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    box-sizing: border-box;  
+}
+
+#boton-1 {
+    padding: 50px;
+    margin: 20px;
+}
+
+#boton-2 {
+    padding: 50px;
+    margin: 20px;
+}
+
+#boton-3 {
+    padding: 50px;
+    margin: 20px;
+}
