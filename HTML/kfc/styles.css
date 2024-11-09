@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px;
+    font-size: 0.8em;
+    color: #333;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.icon p {
+    margin: 0;
+    font-size: 0.75em;
+    color: #333;
+}
+
+.login-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.location-bar {
+    background-color: #333;
+    padding: 30px 0;
+    text-align: left;
+}
+
+.location-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.promo-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 60vh;
+    background-color: #f4f4f4;
+}
+
+.promo-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.promo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo-text {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: 20px;
+}
+
+.bag-icon {
+    width: 50px;
+    height: 50px;
+}
