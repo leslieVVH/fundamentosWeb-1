@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Botón "Ver Menú" centrado */
+button.menu-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 1.4rem; /* Tamaño de fuente un poco más grande */
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px auto; /* Centrado con 'auto' en los márgenes izquierdo y derecho */
+    display: block; /* Asegura que se comporte como un bloque para centrarlo */
+    text-align: center;
+}
+
+button.menu-button:hover {
+    background-color: #cc0000;
+}
+
+/* Título "MENÚ" alineado a la izquierda */
+h1.menu-title {
+    font-size: 2.8rem; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0 30px;
+    text-align: left;
+}
+
+/* Contenedor de cuadrícula de menú con 6 columnas */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Dos filas de seis elementos */
+    gap: 25px; /* Espaciado ligeramente mayor entre elementos */
+    justify-items: center;
+}
+
+/* Estilos para cada tarjeta de menú */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 140px; /* Ajuste de ancho para hacer los elementos más grandes */
+}
+
+.menu-item img {
+    width: 150px; /* Tamaño más grande de las imágenes */
+    height: 150px; /* Establecer la altura también para mantener la proporción */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    font-size: 1rem; /* Tamaño de fuente más grande */
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
