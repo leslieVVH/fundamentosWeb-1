@@ -1,0 +1,319 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Header */
+.header {
+    background-color: #c90021;
+    color: white;
+    padding: 7px 15px;
+}
+
+.header-container {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 95px;
+    margin-left: -42vh;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+    margin-right: 31vh;
+    width: 80vh;
+    justify-content: start;
+}
+
+hr{
+    height: 14vh;
+    margin-left: -0vh;
+}
+
+.menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: -2vh;
+}
+
+.locales {
+    margin-left: -10vh;
+
+}
+
+
+.delivery {
+    background-color: #00ADEF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.delivery-m {
+    margin-left: -8vh;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    min-height: 300px;
+    margin-top: -50vh;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner-content img{
+    height: 40vh;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.combo-prices {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.combo-prices p {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #00ADEF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-image {
+    max-height: 290px;
+    margin-left: 20px;
+}
+
+/* Promociones */
+.promo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+}
+
+.container-promo{
+    width: 120vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: -65vh;
+}
+
+.promo-card img{
+    height: 45vh;
+    margin-left: 2vh;
+}
+
+.promo-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.promo-card p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #555;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #777;
+}
+
+/* Bestsellers */
+.bestsellers {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+.bestsellers-title {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.2rem; /* Tamaño del texto del precio */
+    margin-right: 350px; /* Espaciado a la derecha */
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 85px 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logo-container {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-column h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.footer-column p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rede-social1 {
+    position: fixed;
+    height: 10vh;
+}
+
+.rede-social2 {
+    position: fixed;
+    height: 11vh;
+    margin-top: 11vh;
+    margin-left: 1vh;
+}
+
+.container-rede-sociales {
+    width: 30vh;
+    margin-left: 189vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50vh;
+}
+
+.container-rede-sociales img:hover{
+    cursor: pointer;
+}
+
+.container-login img:hover{
+    cursor: pointer;
+}
+
+.login {
+    position: absolute;
+    top: 10px; 
+    right: 200px;
+    width: 100px;
+    height: 90px;
+    margin-top: 29px;
+}
